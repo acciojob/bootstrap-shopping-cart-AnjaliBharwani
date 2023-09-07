@@ -1,36 +1,30 @@
 /*  your css code here. If applicable */
-/*  your css code here. If applicable */
-.block-heading{
-	text-align:center
+/* Headings */
+.cart-heading {
+    color: #3b99e0;
 }
-h1, h2, h5{
-	color:#3b99e0;
+
+/* Summary */
+.summary {
+    border-top: 2px solid #5ea4f3;
+    background-color: #f7fbff;
+    padding: 20px;
 }
-.product{
-	
-	align:center;
+
+/* Product Block */
+.product {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
 }
-.img-fluid{
-	width:100%;
+
+/* Product Images */
+.product img {
+    max-width: 100%;
+    height: auto;
 }
-input{
-	width:50%;
-}
-.summary{
-	background:rgb(247, 251, 255);
-	border-top:2px solid rgb(94, 164, 243);
-	padding:20px;
-}
-.summary_content{
-	display:flex;
-	justify-content:space-between;	
-}
-button{
-	background:blue;
-	color:white;
-	border:1px solid blue;
-	outline:none;
-	width:100%;
-	font-size:40px;
-	padding:1%;
+
+/* Block Heading */
+.block-heading {
+    text-align: center;
 }
